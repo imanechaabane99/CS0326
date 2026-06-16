@@ -6,12 +6,15 @@ if a%2==0:
 else:
     print("il primo valore è dispari:")
 print("la media è: ",(a+b+c)/3)
+#questa parte di codice fa la media tra tre valori e valuta se il primo e pari o dispari
+numero=input("inserisci un numero ")
 i=1
 tabellina=[]
 for i in range(11):
-    tabellina.append(a*i)
+    tabellina.append(numero*i)
     i=i+1
-  print(tabellina)
+print(tabellina)
+#calcola la tabellina del valore inserito
 a=int(input("quanti numeri vuoi scrivere"))
 max=0
 i=0
@@ -21,6 +24,7 @@ for i in range(a):
     if lista[i]>max:
         max=lista[i]
 print("il massimo della lista è :",max)
+#questa da la valore max di una lista inserita
 s=input(str("inserisci una frase "))
 print(s[::-1])
 i=0
@@ -31,3 +35,6 @@ for i in range(len(s)):
         t=t+1
 i=i+1
 print("le vocali nella frase sono: ", t)
+#Questa calcola le vocali di una stringa inserita
+
+    
