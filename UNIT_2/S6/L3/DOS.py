@@ -9,5 +9,5 @@ pacchetto=random.randbytes(1024)
 
 for i in range(n_pacchetti):
     s.sendto(pacchetto,(SVR_ADDRES,SVR_PORT))
-print(f"Sono stati inviati {i+1} pacchetti")    
+print(f"Sono stati inviati {n_pacchetti} pacchetti")    
 s.close()
